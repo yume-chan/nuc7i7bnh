@@ -2,14 +2,17 @@
 
 Based on https://github.com/shuai620/NUC7i7BNH
 
-## Versions
+## Notes
 
-Note: The combination of `IntelBluetoothFirmware` and `BlueToolFixup` only works in macOS 12.
+1. The combination of `IntelBluetoothFirmware` and `BlueToolFixup` only works in macOS 12.
+2. `Itlwm` must be built againest each macOS version. The included binary only works in macOS 12.
+
+## Versions
 
 | Package                               | Version        | Repository                                                                                              |
 | ------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------- |
 | OpenCore                              | 0.7.6          | [acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)                                   |
-| Itlwm                                 | 2.0.0          | [OpenIntelWireless/itlwm](https://github.com/OpenIntelWireless/itlwm)                                   |
+| Itlwm                                 | 2.1.0          | [OpenIntelWireless/itlwm](https://github.com/OpenIntelWireless/itlwm)                                   |
 | AppleALC                              | 1.6.6          | [acidanthera/AppleALC](https://github.com/acidanthera/AppleALC)                                         |
 | CPUFriend                             | 1.2.4          | [acidanthera/CPUFriend](https://github.com/acidanthera/CPUFriend)                                       |
 | IntelBluetoothFirmware                | 2.1.0          | [OpenIntelWireless/IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) |
